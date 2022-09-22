@@ -2,6 +2,7 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import Countries from './components/Countries/Countries';
 import Person from './components/Person/Person';
+import Footer from './components/Footer/Footer';
 // import './components/Person/Person.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       {/* <LoadCountries></LoadCountries> */}
       <Countries></Countries>
+      <Footer></Footer>
     </div>
   );
 }

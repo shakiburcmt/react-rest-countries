@@ -16,8 +16,8 @@ const Countries = () => {
             </div>
             <div className='countryResponsive'>
             {
-                // ekhane country key pathano hoyeche jeno barbar ek kaj na kora jage country={country}
-                countries.map(country => <Country country={country}></Country>)
+                // ekhane country key pathano hoyeche jeno barbar ek kaj na kora jage country={country} key diye unique kora hoy
+                    countries.map(country => <Country country={country} key={country.name}></Country>)
             }
             </div>
         </div>

@@ -5,7 +5,7 @@ const Country = (props) => {
     // destructuring korle aro shortcut hoye jabe
     const {population,name,flags} = props.country;
     return (
-        <div className='country'>
+        <div className='country bg-success'>
             <h2>Country Name: {name.common}</h2>
             <p>Population: {population}</p>
             <img src={flags.png} alt="" />
